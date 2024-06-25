@@ -1,0 +1,9 @@
+[build]
+  publish = "dist"
+  command = "npm run compile"
+
+[[redirects]]
+  from = "/images/*"
+  to = "http://wizmall.anywiz.co.kr/images/:splat"
+  status = 200
+  force = true
